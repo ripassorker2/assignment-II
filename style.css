@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* banner area */
+.header-area{
+    padding: 100px 0;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.banner-info {
+    display: flex;
+    background-color: #161616;
+    border-radius: 50px;
+    padding-top: 30px;
+}
+.banner-content {
+    width: 50%;
+    color: #fff;
+    padding: 0 70px;
+    
+}
+
+.banner-content a {
+    text-decoration: none;
+    color: #fff;
+    background: #DD0000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 1s;
+}
+.banner-content a:hover{
+    letter-spacing: 1px;
+    background: none;
+    border: 1px solid #fff;
+
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.banner-content h1 {
+    font-size: 70px;
+    line-height: 1.2;
+}
+.banner-img {
+    width: 50%;
+    text-align: center;
+}
+
+/* Blog area  */
+.blog-content{
+    display: flex;
+}
+.left-sidebar-area{
+    width: 25%;
+    margin: auto;
+}
+.all-blog{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+
+.button-area a {
+    display: block;
+    padding: 12px 30px;
+    margin: 20px 0;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    color: #161616;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.button-area a:hover{
+    background-color: #DD0000;
+    color: #fff;
+}
+
+.all-btn {
+    background: #161616;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.all-btn .active{
+    background: #DD0000;
+    color: #fff;
+}
+
+.blog-item {
+    border: 1px solid #e1dcdc;
+    border-top: none;
+}
+
+.blog-item span {
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 3px 12px;
+}
+
+
+.blog-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #161616;
+    margin-top: 10px;
+}
+.blog-icon span{
+    color: #161616;
+    border: none;
+}
+.blog-info{
+    padding: 10px;
+}
+
+.view-more-btn{
+    text-align: center;
+    display: none;
+}
+.view-more-btn a{
+    padding: 12px 30px;
+    background-color: #DD0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* footer area */
+
+.footer-area{
+    background-color: #161616;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.footer-logo a {
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    padding: 25px;
+}
+
+hr {
+    display: block;
+    border: .5px solid #323030;
+}
+.navbar-area ul{
+    list-style: none;
+    padding: 10px 0;
+}
+.navbar-area ul li{
+    display: inline-block;
+}
+.navbar-area ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #c8c1c1bc;
+    padding: 10px 20px;
+}
+.navbar-area ul li a:hover{
+    color: #DD0000;
+}
+
+/* ======================== */
+
+/* Flag page  */
+
+.flag-img {
+    display: flex;
+    align-items: center;
+}
+
+.flag-img img {
+    width: 30%;
+    padding: 20px;
+    height: auto;
+}
+
+.flag-info{
+    text-align: center;
+}
+
+.flag-info h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.flag-item {
+    border: 2px solid #bfbfbf6a;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+
+  .sociel-icon-area ul{
+    list-style: none;
+  }
+  .sociel-icon-area ul li{
+    display: inline-block;
+  }
+  .sociel-icon-area ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .sociel-icon-area ul li a:hover{
+    color: #DD0000;
+  }
+  /* Screen larger than 600px? 2 column */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
